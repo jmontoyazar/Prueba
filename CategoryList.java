@@ -13,7 +13,7 @@ public class CategoryList extends HttpServlet {
         connection = ConnectionUtils.getConnection(config);
     }
 	
-	
+	//prueba
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException  {
 	res.setContentType("text/html");
     PrintWriter toClient = res.getWriter();
